@@ -1,18 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WelcomeActivity">
-
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/animation_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:lottie_fileName="thumbup.json"
-        app:lottie_loop="true"
-        app:lottie_autoPlay="true" />
+    tools:context=".WelcomeActivity"
+    android:background="@drawable/background_welcome"
+    android:orientation="vertical">
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+        android:id="@+id/txtWelcome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PENCARIAN PERKHIDMATAN"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="20dp"
+        android:textColor="#FF009688"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtWelcome3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PENYELENGGARAAN ELEKTRIK DAN"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txtWelcome2"
+        android:textColor="#FF009688"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtWelcome4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PERALATAN ELEKTRONIK"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txtWelcome3"
+        android:textColor="#FF009688"
+        android:layout_centerHorizontal="true"/>
+
+        <TextView
+        android:id="@+id/txtCreateAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adakah anda menawarkan perkhidmatan ?"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/txtWelcome4"
+        android:textColor="@color/colorWelcome" />
+
+
+        <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_rectangle_yellow"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtCreateAcc"
+        android:textAllCaps="false"
+        android:text="Daftar" />
+
+        <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah menjadi kontraktor ?"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btn_sign_up"
+        android:textColor="#FF20D457"
+            />
+
+
+        <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_rectangle_grey"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txtLogin"
+        android:textAllCaps="false"
+        android:text="Log Masuk" />
+
+    <TextView
+        android:id="@+id/txtGuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mencari Kontraktor ?"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/btn_sign_in"
+        android:textColor="#F44336"
+        />
+
+    <Button
+        android:id="@+id/btn_enter_guest"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_rectangle_blue"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txtGuest"
+        android:textAllCaps="false"
+        android:text="Masuk Sebagai Pengguna" />
+</RelativeLayout>

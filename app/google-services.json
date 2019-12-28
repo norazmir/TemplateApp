@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "640914224987",
+    "firebase_url": "https://perkhidmatan-eletrik.firebaseio.com",
+    "project_id": "perkhidmatan-eletrik",
+    "storage_bucket": "perkhidmatan-eletrik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640914224987:android:8dae7d10b56aa4513fcc7e",
+        "android_client_info": {
+          "package_name": "com.example.templateapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640914224987-rib1qv7lq6a7db3kgu6u58jab811bt4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcrHl_pEKioG8kFCys3vrqai6VBQ3UdDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640914224987-rib1qv7lq6a7db3kgu6u58jab811bt4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

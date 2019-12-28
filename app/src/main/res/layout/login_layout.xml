@@ -43,7 +43,7 @@
         android:id="@+id/btn_login"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/buton_rectangle_blue"
+        android:background="@drawable/button_rectangle_yellow"
         android:textColor="#ffff"
         android:textSize="20sp"
         android:layout_centerHorizontal="true"

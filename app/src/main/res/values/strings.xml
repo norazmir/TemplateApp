@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">TemplateApp</string>
+    <string name="app_name">eNe-servis</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Kata Laluan</string>
+    <string name="action_sign_in_short">Log Masuk</string>
+    <string name="action_sign_in">Log Masuk</string>
+    <string name="pemasangan_lampu_kipas"><![CDATA[Pemasangan lampu & kipas]]></string>
+    <string name="pemasangan_servis_penghawa_dingin">Pemasangan penghawa dingin</string>
+    <string name="carian_perkhidmatan_e_e"><![CDATA[Carian perkhidmatan E & E]]></string>
 </resources>
