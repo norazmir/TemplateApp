@@ -1,1 +1,3 @@
-A SIMPLE DESIGN TEMPLATE APPLICATION (STILL UPDATING)
+eNe-Servis App
+
+For Searching Available Electronic Services
